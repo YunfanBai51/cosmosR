@@ -2,11 +2,10 @@
 
 ## Authors
 
-- **Aurélien Dugourd**. Author.
+- **Aurélien Dugourd**. Author, maintainer.
   [](https://orcid.org/0000-0002-0714-028X)
 
-- **Attila Gabor**. Maintainer.
-  [](https://orcid.org/0000-0002-0776-1182)
+- **Attila Gabor**. Author. [](https://orcid.org/0000-0002-0776-1182)
 
 - **Katharina Zirngibl**. Author.
   [](https://orcid.org/0000-0002-7518-0339)
