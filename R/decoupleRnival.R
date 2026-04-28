@@ -403,9 +403,9 @@ reduce_solution_network <- function(decoupleRnival_res, meta_network, cutoff,
                          stringsAsFactors = FALSE)
     att <- merge(att, rna_df, by = "nodes", all.x = TRUE)
   } else {
-    att$RNA_input <- NA_real_
+    att$RNA_input <- rep(NA_real_, nrow(att))
   }
-  
+
   return(list(SIF = sif, ATT = att))
 }
 
@@ -742,9 +742,9 @@ reduce_solution_network_double_thresh <- function(
                          stringsAsFactors = FALSE)
     att <- merge(att, rna_df, by = "source", all.x = TRUE)
   } else {
-    att$RNA_input <- NA_real_
+    att$RNA_input <- rep(NA_real_, nrow(att))
   }
-  
+
   return(list(SIF = final_edges, ATT = att))
 }
 
